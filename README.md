@@ -25,7 +25,7 @@ cek12345
 
 ## 2. Menu Cafe
 
-Klik 'Tambah Data' untuk menampilkan menu
+Klik 'Tambah Data' untuk menampilkan menu<br>
 ![Home Layout](hasil/2.png)<br>
 ![Home Layout](hasil/3.png)
 
