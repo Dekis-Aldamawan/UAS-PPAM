@@ -16,23 +16,3 @@ test3@gmail.com
 ```
 cek12345
 ```
-
-# Results
-[![Android Arsenal](https://img.shields.io/badge/Results-MenuCafe-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1234)
-
-## 1. Login Layout
-
-![Login Layout](hasil/1.png)
-
-## 2. Menu Cafe
-
-![Home Layout](hasil/2.png)
-![Home Layout](hasil/3.png)
-
-## 3. Detail Menu
-
-![Detail Layout](hasil/5.png)
-
-## 4. Logout
-
-![Logout Layout](hasil/4.png)
