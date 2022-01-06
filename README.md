@@ -21,7 +21,7 @@ cek12345
 
 ## 1. Login Layout
 
-![Login Layout](hasil/1.png)
+![Login Layout](hasil/1.png = 250x250)
 
 ## 2. Menu Cafe
 
