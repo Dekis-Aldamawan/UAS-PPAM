@@ -25,7 +25,7 @@ cek12345
 
 ## 2. Menu Cafe
 
-![Home Layout](hasil/2.png)
+![Home Layout](hasil/2.png) Clik "Tambah Data" untuk memunculkan Menu
 ![Home Layout](hasil/3.png)
 
 ## 3. Detail Menu
@@ -34,4 +34,4 @@ cek12345
 
 ## 4. Logout
 
-![Logout Layout](hasil/5.png)
+![Logout Layout](hasil/2.png)
