@@ -1,5 +1,5 @@
 # # MenuCafe Description
-[![UAS_PPAM](https://img.shields.io/badge/UTS%20Praktikum%20Pengembangan%20Aplikasi%20Mobile-MenuCafe-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1234)
+[![UAS_PPAM](https://img.shields.io/badge/UAS%20Praktikum%20Pengembangan%20Aplikasi%20Mobile-MenuCafe-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1234)
 
 Untuk memenuhi syarat salah satu tugas `ujian akhir semester` mata kuliah ***Praktikum Pengembangan Aplikasi Mobile***.
 
