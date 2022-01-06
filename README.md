@@ -21,7 +21,7 @@ cek12345
 
 ## 1. Login Layout
 
-![Login Layout](hasil/1.png = 250x250)
+![Login Layout]<a href="url"><img src="http://url.to/hasil/1.png" align="left" height="48" width="48" ></a>
 
 ## 2. Menu Cafe
 
