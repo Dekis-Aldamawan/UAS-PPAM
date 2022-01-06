@@ -22,17 +22,17 @@ cek12345
 
 ## 1. Login Layout
 
-![Login Layout](hasil/1.PNG)
+![Login Layout](hasil/1.png)
 
 ## 2. Menu Cafe
 
-![Home Layout](hasil/2.PNG)
-![Home Layout](hasil/3.PNG)
+![Home Layout](hasil/2.png)
+![Home Layout](hasil/3.png)
 
 ## 3. Detail Menu
 
-![Detail Layout](hasil/5.PNG)
+![Detail Layout](hasil/5.png)
 
 ## 4. Logout
 
-![Logout Layout](hasil/4.PNG)
+![Logout Layout](hasil/4.png)
