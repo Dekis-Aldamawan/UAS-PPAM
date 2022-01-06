@@ -16,22 +16,3 @@ test3@gmail.com
 ```
 cek12345
 ```
-# Results
-[![Android Arsenal](https://img.shields.io/badge/Results-MenuCafe-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1234)
-
-## 1. Login Layout
-
-![Login Layout]<a href="url"><img src="http://url.to/hasil/1.png" align="left" height="48" width="48" ></a>
-
-## 2. Menu Cafe
-
-![Home Layout](hasil/2.png) Clik "Tambah Data" untuk memunculkan Menu
-![Home Layout](hasil/3.png)
-
-## 3. Detail Menu
-
-![Detail Layout](hasil/4.png)
-
-## 4. Logout
-
-![Logout Layout](hasil/2.png)
