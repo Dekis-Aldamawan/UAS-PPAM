@@ -14,6 +14,7 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
+
         this.setTitle("Detail Menu");
         int id = getIntent().getIntExtra("id", -1);
 
@@ -26,7 +27,7 @@ public class DetailActivity extends AppCompatActivity {
             ImageView image = findViewById(R.id.detail_photo);
 
             image.setImageDrawable(food.image);
-            judulTV.setText(food.judul);
+            judulTV.setText(food.title);
             deskripsiTV.setText(food.deskripsi);
         }
     }

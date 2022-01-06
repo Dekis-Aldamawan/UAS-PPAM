@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/TUGAS UIN KU TERCINTA/Semester 5/Praktikum Pengembangan Aplikasi Mobile/UTS Ridho/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/TUGAS UIN KU TERCINTA/Semester 5/Praktikum Pengembangan Aplikasi Mobile/UTS Ridho/app/src/main/res/layout/activity_detail.xml" value="0.18" />
+        <entry key="..\:/TUGAS UIN KU TERCINTA/Semester 5/Praktikum Pengembangan Aplikasi Mobile/UTS Ridho/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/TUGAS UIN KU TERCINTA/Semester 5/Praktikum Pengembangan Aplikasi Mobile/UTS Ridho/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/TUGAS UIN KU TERCINTA/Semester 5/Praktikum Pengembangan Aplikasi Mobile/UTS Ridho/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/TUGAS UIN KU TERCINTA/Semester 5/Praktikum Pengembangan Aplikasi Mobile/UTS Ridho/app/src/main/res/layout/activity_register.xml" value="0.34782608695652173" />
+        <entry key="..\:/TUGAS UIN KU TERCINTA/Semester 5/Praktikum Pengembangan Aplikasi Mobile/UTS Ridho/app/src/main/res/layout/food_item.xml" value="0.18848167539267016" />
+        <entry key="..\:/TUGAS UIN KU TERCINTA/Semester 5/Praktikum Pengembangan Aplikasi Mobile/UTS Ridho/app/src/main/res/menu/app_menu_item.xml" value="0.33" />
       </map>
     </option>
   </component>

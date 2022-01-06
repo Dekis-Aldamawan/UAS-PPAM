@@ -4,30 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".RegisterActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="14dp" >
+        android:padding="14dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Register"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            android:text="Login" />
+            style="bold" />
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            app:boxBackgroundMode="outline"
+            app:boxBackgroundColor="@color/white">
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Lengkap"
+                android:layout_marginTop="10dp"
+                android:inputType="textPersonName"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             app:boxBackgroundColor="@color/white"
-            app:boxBackgroundMode="outline" >
+            app:boxBackgroundMode="outline">
             <EditText
                 android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Email"
-                android:inputType="textEmailAddress" />
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundColor="@color/white"
+            android:layout_marginTop="10dp"
+            app:boxBackgroundMode="outline"
+            app:passwordToggleEnabled="true">
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"/>
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -37,25 +65,25 @@
             app:boxBackgroundMode="outline"
             app:passwordToggleEnabled="true">
             <EditText
-                android:id="@+id/password"
+                android:id="@+id/password_conf"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Password"
+                android:hint="Password Confirmation"
                 android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
-        <Button
-            android:id="@+id/btn_login"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="Login" />
         <Button
             android:id="@+id/btn_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/white"
+            android:text="Register Now"/>
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
             android:textColor="@color/white"
-            android:layout_marginTop="10dp"
-            android:text="Register" />
+            android:text="Login"/>
     </LinearLayout>
 </ScrollView>

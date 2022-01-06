@@ -11,6 +11,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.firebase.auth.FirebaseAuth;
+
+
 import java.util.ArrayList;
 
 public class HomeActivity extends AppCompatActivity {
@@ -20,11 +23,22 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        ArrayList<Food> data = FoodData.getData(getApplicationContext());
+        DB database = new DB (getApplicationContext());
+
+        ArrayList<Food> data = (ArrayList<Food>) database.getFoodList(getApplicationContext());
         RecyclerView recyclerView = findViewById(R.id.list_item_view);
-        FoodsAdapter adapter = new FoodsAdapter(data);
+       FoodsAdapter adapter = new FoodsAdapter(data);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+    }
+
+    public void addData(){
+        DB database = new DB(getApplicationContext());
+        ArrayList<Food> data = FoodData.getData(getApplicationContext());
+
+        for (Food food: data) {
+            database.inputData(food);
+        }
     }
 
     @Override
@@ -38,9 +52,14 @@ public class HomeActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.logout:
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(intent);
+                FirebaseAuth.getInstance().signOut();
+                startActivity(new Intent(getApplicationContext(), MainActivity.class));
                 this.finish();
+                break;
+
+            case R.id.tambahdata:
+                addData();
+                startActivity(new Intent(getApplicationContext(), HomeActivity.class));
                 break;
             default:
         }

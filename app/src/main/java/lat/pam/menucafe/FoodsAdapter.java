@@ -29,7 +29,7 @@ public class FoodsAdapter extends RecyclerView.Adapter<FoodsAdapter.ListViewHold
     @Override
     public void onBindViewHolder(@NonNull ListViewHolder holder, int position) {
         Food food = foodData.get(position);
-        holder.judul.setText(food.judul);
+        holder.judul.setText(food.title);
         holder.harga.setText(String.valueOf(food.harga));
         holder.image.setBackground(food.image);
         holder.image.setImageDrawable(food.image);

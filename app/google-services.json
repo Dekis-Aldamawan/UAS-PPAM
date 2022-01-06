@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1075452012432",
+    "project_id": "menucafe-9ebc1",
+    "storage_bucket": "menucafe-9ebc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075452012432:android:341002f5b05e578fb23515",
+        "android_client_info": {
+          "package_name": "lat.pam.menucafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075452012432-m941r7629adfb3bgefa09tofnkvgj7h3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lat.pam.menucafe",
+            "certificate_hash": "ccd2dd624bfd6b3b89089f23a1cf6dbef3d3801a"
+          }
+        },
+        {
+          "client_id": "1075452012432-dvg2k38udrec2qugtsfvt0sheq5nc7mm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi27J_DLu7hNfi_iEdFpNnPtqcgqBblLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075452012432-dvg2k38udrec2qugtsfvt0sheq5nc7mm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
